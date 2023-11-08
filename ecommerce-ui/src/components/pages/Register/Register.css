@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    margin-top: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+    min-width: 400px;
+    border-radius: 10px;       
+    background-color: rgb(224, 245, 245);
+}
+
+.divContainer {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.error-message{
+    color: red;
+}

@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    gap: 1rem;
+    padding: 1rem;
+    min-height: fit-content;
+    width: 350px;
+    border-radius: 10px;
+    background-color: rgb(224, 245, 245);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.divContainer {
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    min-height: 750px;
+    width: 100vw;
+    margin-top: 10px;
+}
+
+.error-message{
+    color: red;
+}

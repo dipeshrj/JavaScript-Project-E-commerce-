@@ -1,0 +1,6 @@
+.divContainer {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100vw;
+}
